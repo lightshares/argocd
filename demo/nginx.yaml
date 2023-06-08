@@ -13,5 +13,5 @@ spec:
      app : nginx                              #定义标签，必须等于 matchLabels 定义的标签
   spec:                                     
    containers:
-   - image: nginx:1.24.0    #我的镜像是从本地的Harbor上拉取
-     name: nginx                                 #镜像名称
+    - image: nginx:1.24.0    #我的镜像是从本地的Harbor上拉取
+      name: nginx                                 #镜像名称
